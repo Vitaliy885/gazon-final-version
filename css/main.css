@@ -469,6 +469,11 @@ body{
 	background-color: #ddd;
 	padding: 20px 10px;
 	display: none;
+	box-shadow: 0 0 5px #000;
+}
+.zakazanu-premium-gazon h2{
+	color: #ff8000;
+	text-transform: uppercase;
 }
 .zakazanu-premium-gazon .fa {
 	float: right;
@@ -485,7 +490,47 @@ body{
 	padding: 10px 20px;
 	outline: none;
 }
-.btn-zakazatu-premium{
+.zakazanu-premium-gazon .btn-zakazatu-premium{
 	padding: 10px 15px;
+	color: #fff;
+	background-color: red;
+	border: 1px solid red;
+}
+/*модальне вікно для видів газону*/
+.zakazanu-parkovii-gazon{
+	position: absolute;
+	left: 50%;
+	text-align: center;
+	z-index: 	9999;
+	transform: translate(-50%, -50%);
+	width: 50%;
+	background-color: #ddd;
+	padding: 20px 10px;
+	display: none;
+	box-shadow: 0 0 5px #000;
+}
+.zakazanu-parkovii-gazon h2{
+	color: #ff8000;
+	text-transform: uppercase;
+}
+.zakazanu-parkovii-gazon .fa {
+	float: right;
 	color: #000;
+	transform: rotate(45deg);
+	cursor: pointer;
+	z-index: 9999;
+	margin-right: 7px;
+}
+.zakazanu-parkovii-gazon input{
+	display: block;
+	margin: 20px auto;
+	width: 70%;
+	padding: 10px 20px;
+	outline: none;
+}
+.zakazanu-parkovii-gazon .btn-zakazatu-parkovii{
+	padding: 10px 15px;
+	color: #fff;
+	background-color: red;
+	border: 1px solid red;
 }

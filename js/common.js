@@ -11,4 +11,11 @@ $(document).ready(function() {
 		$(".zakazanu-premium-gazon").hide(100);
 	});
 
+	$(".zakazatu-parkovii").click(function(){
+		$(".zakazanu-parkovii-gazon").css("display","block");
+	});
+	$(".zakazanu-parkovii-gazon .fa").click(function(){
+		$(".zakazanu-parkovii-gazon").hide(100);
+	});
+
 });
