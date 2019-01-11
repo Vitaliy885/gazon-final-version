@@ -1,0 +1,1 @@
+<a class="example-image-link" href="img/<?php echo $row['picture'] ?>" data-lightbox="example-1"><img class="example-image" src="img/<?php echo $row['picture'] ?>" alt=""></a>

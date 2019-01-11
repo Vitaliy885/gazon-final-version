@@ -1,0 +1,266 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width : 991px) {
+	.top-section{
+		padding: 140px 15px;
+	}
+	.top-section .minimal{
+		width: 40%;
+	}
+	.zubi{
+		top: 160px;
+	}
+
+}
+
+
+
+
+
+/*Disable Animation on Mobile Devices*/
+.animated {
+	/*CSS transitions*/
+	-o-transition-property: none !important;
+	-moz-transition-property: none !important;
+	-ms-transition-property: none !important;
+	-webkit-transition-property: none !important;
+	transition-property: none !important;
+	/*CSS transforms*/
+	-o-transform: none !important;
+	-moz-transform: none !important;
+	-ms-transform: none !important;
+	-webkit-transform: none !important;
+	transform: none !important;
+	/*CSS animations*/
+	-webkit-animation: none !important;
+	-moz-animation: none !important;
+	-o-animation: none !important;
+	-ms-animation: none !important;
+	animation: none !important;
+}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 358px) {
+	
+}
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 768px){
+	.top-logo{
+		top: 15px;
+		left: 50%;
+		padding-bottom: 25px;
+	}
+	
+	.btn-submit{
+		display: block;
+		margin: 0 auto;
+	}
+	.order-consultion{
+		height: 465px;
+	}
+	.order-consultion:before{
+		height: 465px;
+	}
+	.btn-submit{
+		margin-top: 0 !important;
+	}
+	.order-consultion{
+		padding: 90px 20px !important;
+	}
+	.nashi-klientu .col-md-4{
+		margin: 50px auto;
+	}
+}
+@media only screen and (max-width: 375px){
+	
+	
+}
+@media only screen and (max-width: 1024px){
+	.order-consultion{
+		padding: 75px 20px;
+	}
+	.btn-submit{
+		margin-top: 80px;
+	}
+	.top-section .minimal p{
+		font-size: 18px;
+	}
+}
+@media only screen and (max-width: 685px){
+
+}
+@media only screen and (max-width: 425px){
+	.top-logo{
+		height: 120px;
+	}
+	.top-section{
+		padding: 100px 15px;
+	}
+	.zakazanu-premium-gazon input{
+		width: 80%;
+	}
+	.zakazanu-premium-gazon{
+		width: 80%;
+	}
+	.top-section h1{
+		font-size: 42px;
+		text-transform: uppercase;
+		font-weight: 600;
+	}
+	.top-section h2{
+		font-size: 26px;
+	}
+	.top-section span{
+		padding: 0;
+	}
+	.top-section .minimal{
+		width: 100%;
+	}
+	.top-section .minimal p{
+		font-size: 14px;
+	}
+	
+	.wishes span{
+		font-size: 22px;
+	}
+	
+	.zubi{
+		display: none;
+	}
+	
+	.order-consultion{
+		height: 700px;
+	}
+	.order-consultion:before{
+		height: 700px;
+	}
+	.swiper-container{
+		display: none;
+	}
+	.swiper-container2{
+		display: block;
+	}
+	.blok-form-vidpravlennia h1{
+		font-size: 26px;
+	}
+	.blok-form-vidpravlennia .col-md-6 h2{
+		font-size: 22px;
+	}
+}
+
+@media screen and (max-width: 768px) and (min-width: 320px) {	
+
+}
+
+@media screen and (max-width: 375px) and (min-width: 375px) {
+	.order-consultion{
+		height: 625px !important;
+	}
+	.order-consultion:before{
+		height: 625px !important;
+	}
+}
+
+@media screen and (max-width: 768px) and (min-width: 425px){
+	
+}
+@media screen and (max-width: 425px) and (min-width: 375px){
+	.order-consultion{
+		height: 565px;
+	}
+	.order-consultion:before{
+		height: 565px;
+	}
+}
+@media screen and (max-width: 375px) and (min-width: 320px) {
+}
+@media screen and (max-width: 366px) and (min-width: 320px){
+	
+	
+}
+@media screen and (max-width: 417px) and (min-width: 383px) {
+
+}
+@media screen and (max-width: 383px) and (min-width: 352px) {
+
+}
+@media screen and (max-width: 351px) and (min-width: 343px) {
+
+}
+@media screen and (max-width: 342px) and (min-width: 329px) {
+
+}
+@media screen and (max-width: 328px) and (min-width: 321px) {
+
+}
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+
+}
+@media screen and (max-width: 495px) and (min-width: 427px) {
+
+}
+@media screen and (max-width: 426px) and (min-width: 426px) {
+
+
+}
+@media screen and (max-width: 520px) and (min-width: 496px) {
+
+}
+@media screen and (max-width: 563px) and (min-width: 521px) {
+	
+}
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.top-section .minimal{
+		width: 100%;
+	}
+	.top-section .minimal p{
+		font-size: 14px;
+	}
+	
+	.order-consultion{
+		height: 610px;
+	}
+	.order-consultion:before{
+		height: 610px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1024px) {
+	
+}
+/* Extra Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+/* Extra Extra Large Devices, Wide Screens */
+@media only screen and (min-width : 2560px) {
+
+}
+
+
