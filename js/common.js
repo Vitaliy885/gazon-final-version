@@ -18,4 +18,11 @@ $(document).ready(function() {
 		$(".zakazanu-parkovii-gazon").hide(100);
 	});
 
+		$(".zakazatu-sportivnii").click(function(){
+		$(".zakazanu-sportivnii-gazon").css("display","block");
+	});
+	$(".zakazanu-sportivnii-gazon .fa").click(function(){
+		$(".zakazanu-sportivnii-gazon").hide(100);
+	});
+
 });
