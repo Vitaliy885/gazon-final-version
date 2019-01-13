@@ -5,24 +5,33 @@ $(document).ready(function() {
 	});
 
 	$(".zakazatu-premium").click(function(){
-		$(".zakazanu-premium-gazon").css("display","block");
+		$(".fixed-overlay-modal-premium").css("display","block");
 	});
 	$(".zakazanu-premium-gazon .fa").click(function(){
-		$(".zakazanu-premium-gazon").hide(100);
+		$(".fixed-overlay-modal-premium").hide(100);
 	});
 
 	$(".zakazatu-parkovii").click(function(){
-		$(".zakazanu-parkovii-gazon").css("display","block");
+		$(".fixed-overlay-modal-parkovii").css("display","block");
 	});
 	$(".zakazanu-parkovii-gazon .fa").click(function(){
-		$(".zakazanu-parkovii-gazon").hide(100);
+		$(".fixed-overlay-modal-parkovii").hide(100);
 	});
 
-		$(".zakazatu-sportivnii").click(function(){
-		$(".zakazanu-sportivnii-gazon").css("display","block");
+	$(".zakazatu-sportivnii").click(function(){
+		$(".fixed-overlay-modal-sportivnii").css("display","block");
 	});
 	$(".zakazanu-sportivnii-gazon .fa").click(function(){
-		$(".zakazanu-sportivnii-gazon").hide(100);
+		$(".fixed-overlay-modal-sportivnii").hide(100);
 	});
+
+
+		$(".btn-get-price").click(function(){
+			$(".fixed-overlay-modal").css("display","block");
+		});
+		$(".zakrutu").click(function(){
+			$(".fixed-overlay-modal").css("display","none");
+		});
+	
 
 });

@@ -26,7 +26,7 @@ body{
 }
 
 .top-section h1,h2{
-	z-index: 9999;
+	z-index: 9998;
 	color: green;
 	position: relative;
 	letter-spacing: 2px;
@@ -46,7 +46,7 @@ body{
 .top-section .minimal{
 	color: #fff;
 	position: relative;
-	z-index: 9999;
+	z-index: 9998;
 	background-color: #ff8000;
 	width: 35%;
 	margin: 0 auto;
@@ -461,7 +461,7 @@ body{
 /*модальне вікно для видів газону*/
 .zakazanu-premium-gazon{
 	position: absolute;
-
+	top: 50%;
 	left: 50%;
 	text-align: center;
 	z-index: 	9999;
@@ -469,7 +469,6 @@ body{
 	width: 50%;
 	background-color: #ddd;
 	padding: 20px 10px;
-	display: none;
 	box-shadow: 0 0 5px #000;
 }
 .zakazanu-premium-gazon h2{
@@ -500,6 +499,7 @@ body{
 /*модальне вікно для видів газону*/
 .zakazanu-parkovii-gazon{
 	position: absolute;
+	top: 50%;
 	left: 50%;
 	text-align: center;
 	z-index: 	9999;
@@ -507,7 +507,6 @@ body{
 	width: 50%;
 	background-color: #ddd;
 	padding: 20px 10px;
-	display: none;
 	box-shadow: 0 0 5px #000;
 }
 .zakazanu-parkovii-gazon h2{
@@ -538,6 +537,7 @@ body{
 /*модальне вікно для видів газону*/
 .zakazanu-sportivnii-gazon{
 	position: absolute;
+	top: 50%;
 	left: 50%;
 	text-align: center;
 	z-index: 9999;
@@ -545,7 +545,6 @@ body{
 	width: 50%;
 	background-color: #ddd;
 	padding: 20px 10px;
-	display: none;
 	box-shadow: 0 0 5px #000;
 }
 .zakazanu-sportivnii-gazon h2{
@@ -572,4 +571,71 @@ body{
 	color: #fff;
 	background-color: red;
 	border: 1px solid red;
+}
+.fixed-overlay-modal{
+	position: fixed;
+	overflow: auto;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	z-index: 9999;
+	display: none;
+}
+.fixed-overlay-modal-premium{
+	position: fixed;
+	overflow: auto;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	z-index: 9999;
+	display: none;
+}
+.fixed-overlay-modal-parkovii{
+	position: fixed;
+	overflow: auto;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	z-index: 9999;
+	display: none;
+}
+.fixed-overlay-modal-sportivnii{
+	position: fixed;
+	overflow: auto;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	z-index: 9999;
+	display: none;
+}
+.alert-vidpravka{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);	
+	z-index: 9999;
+	background-color: #fff;
+	padding: 50px 30px;
+	border: 1px solid #000;
+	text-align: center;
+	display: block;
+}
+.zakrutu{
+	background-color: red;
+	color: #fff;
+	padding: 10px 20px;
+	border: 1px solid red;
+	outline: none;
+	transition: all ease-in-out 0.2s;
+}
+.zakrutu:hover{
+	box-shadow: 0 0 5px #000;
 }

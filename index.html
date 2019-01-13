@@ -57,6 +57,12 @@
 
 </head>
 <body >
+	<div class="fixed-overlay-modal">
+		<div class="alert-vidpravka">
+			<h3>Заявка надіслана! В найближчий час з Вами зв'яжуться , очікуєте дзвінка!</h3>
+			<button class="zakrutu">Закрити</button>
+		</div>
+	</div>
 	<div class="top-section">
 		<a href="index.html">
 			<img src="img/asdas.png" alt="sadovi rishennia" class="img-responsive top-logo">
@@ -70,9 +76,9 @@
 				<div class="minimal">
 					<div class="triangle-up"></div>
 					<p>Дізнатися який газон підійде під ваші потреби</p>	
-					<input type="text" name="name" required class="text-order" placeholder="Ваше ім'я">
-					<input type="text" name="surname" required class="text-order" placeholder="Ваше прізвище">
-					<input type="number" name="phone" required class="text-order" placeholder="Ваш телефон">				
+					<input type="text" name="name" required class="text-order name" placeholder="Ваше ім'я">
+					<input type="text" name="surname" required class="text-order surname" placeholder="Ваше прізвище">
+					<input type="number" name="phone" required class="text-order phone" placeholder="Ваш телефон">				
 				</div>
 				<br>
 				<button class="btn-get-price">Дізнатися</button>		
@@ -104,15 +110,17 @@
 				</div>
 			</div>
 			<!--блок з формою для модального вікна-->
-			<div class="zakazanu-premium-gazon">
-				<i class="fa fa-plus fa-2x" aria-hidden="true"></i>
-				<h2>Замовити Рулонний газон «ПРЕМІУМ»</h2>
-				<form id="form3" method="POST">
-					<input type="text" name="name" required class="text-order" placeholder="Ваше ім'я">
-					<input type="text" name="surname" required class="text-order" placeholder="Ваше прізвище">
-					<input type="number" name="phone" required class="text-order" placeholder="Ваш телефон">				
-					<button class="btn-zakazatu-premium">Замовити газон</button>		
-				</form>
+			<div class="fixed-overlay-modal-premium">
+				<div class="zakazanu-premium-gazon">
+					<i class="fa fa-plus fa-2x" aria-hidden="true"></i>
+					<h2>Замовити Рулонний газон «ПРЕМІУМ»</h2>
+					<form id="form3" method="POST">
+						<input type="text" name="name" required class="text-order" placeholder="Ваше ім'я">
+						<input type="text" name="surname" required class="text-order" placeholder="Ваше прізвище">
+						<input type="number" name="phone" required class="text-order" placeholder="Ваш телефон">				
+						<button class="btn-zakazatu-premium">Замовити газон</button>		
+					</form>
+				</div>
 			</div>
 		</section>
 		<section class="parkovii-gazon">
@@ -130,15 +138,17 @@
 				</div>
 			</div>
 			<!--блок з формою для модального вікна-->
-			<div class="zakazanu-parkovii-gazon">
-				<i class="fa fa-plus fa-2x" aria-hidden="true"></i>
-				<h2>Замовити «ПАРКОВИЙ» для затінених ділянок</h2>
-				<form id="form4" method="POST">
-					<input type="text" name="name" required class="text-order" placeholder="Ваше ім'я">
-					<input type="text" name="surname" required class="text-order" placeholder="Ваше прізвище">
-					<input type="number" name="phone" required class="text-order" placeholder="Ваш телефон">				
-					<button class="btn-zakazatu-parkovii">Замовити газон</button>		
-				</form>
+			<div class="fixed-overlay-modal-parkovii">
+				<div class="zakazanu-parkovii-gazon">
+					<i class="fa fa-plus fa-2x" aria-hidden="true"></i>
+					<h2>Замовити «ПАРКОВИЙ» для затінених ділянок</h2>
+					<form id="form4" method="POST">
+						<input type="text" name="name" required class="text-order" placeholder="Ваше ім'я">
+						<input type="text" name="surname" required class="text-order" placeholder="Ваше прізвище">
+						<input type="number" name="phone" required class="text-order" placeholder="Ваш телефон">				
+						<button class="btn-zakazatu-parkovii">Замовити газон</button>		
+					</form>
+				</div>
 			</div>
 		</section>
 
@@ -157,15 +167,17 @@
 				</div>
 			</div>
 			<!--блок з формою для модального вікна-->
-			<div class="zakazanu-sportivnii-gazon">
-				<i class="fa fa-plus fa-2x" aria-hidden="true"></i>
-				<h2>Замовити «СПОРТИВНИЙ ГАЗОН»</h2>
-				<form id="form4" method="POST">
-					<input type="text" name="name" required class="text-order" placeholder="Ваше ім'я">
-					<input type="text" name="surname" required class="text-order" placeholder="Ваше прізвище">
-					<input type="number" name="phone" required class="text-order" placeholder="Ваш телефон">				
-					<button class="btn-zakazatu-sportivnii">Замовити газон</button>		
-				</form>
+			<div class="fixed-overlay-modal-sportivnii">
+				<div class="zakazanu-sportivnii-gazon">
+					<i class="fa fa-plus fa-2x" aria-hidden="true"></i>
+					<h2>Замовити «СПОРТИВНИЙ ГАЗОН»</h2>
+					<form id="form4" method="POST">
+						<input type="text" name="name" required class="text-order" placeholder="Ваше ім'я">
+						<input type="text" name="surname" required class="text-order" placeholder="Ваше прізвище">
+						<input type="number" name="phone" required class="text-order" placeholder="Ваш телефон">				
+						<button class="btn-zakazatu-sportivnii">Замовити газон</button>		
+					</form>
+				</div>
 			</div>
 		</section>
 	</div>
