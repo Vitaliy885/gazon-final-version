@@ -15,7 +15,7 @@ body{
 }
 
 .top-section{
-	background-image: url(../img/lawn_2.jpg);
+	background-image: url(../img/lawn_2.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -646,7 +646,7 @@ body{
 .otrumatu-znujku{
 	background-color: #225328;
 	text-align: center;
-	padding: 30px 15px 55px 15px;
+	padding: 30px 15px 60px 15px;
 }
 .otrumatu-znujku h2{
 	color: #fff;
