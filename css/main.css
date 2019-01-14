@@ -16,10 +16,9 @@ body{
 
 .top-section{
 	background-image: url(../img/lawn_2.jpg);
+	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center center;
-	background-attachment: fixed;
 	text-align: center;
 	padding: 130px 15px;
 	position: relative;
