@@ -8,7 +8,7 @@ body{
 .top-logo{
 	height: 160px;
 	position: absolute;
-	z-index: 9999;
+	z-index: 9998;
 	top: 15px;
 	left: 12%;
 	transform: translate(-50%);
@@ -54,15 +54,16 @@ body{
 	border-radius: 5px;
 	box-shadow: 5px 5px 0 #fff;
 }
-.top-section #form2 input{
+.top-section #form-one input{
 	display: block;
 	margin: 10px auto;
 	padding: 15px 25px;
 	border-radius: 5px;
 	outline: none;
 	width: 80%;
+	color: #000;
 }
-.top-section #form2 .btn-get-price{
+.top-section #form-one .btn-get-price{
 	padding: 15px 25px;
 	background-color: red;
 	color: #fff;
@@ -236,7 +237,7 @@ body{
 	left: 0;
 	top: 150px;
 	width: 100%;
-	z-index: 9999;
+	z-index: 9998;
 }
 /*order-consultion*/
 .order-consultion{
@@ -297,7 +298,7 @@ body{
 	padding: 25px 40px;
 	outline: none;
 	position: absolute;
-	z-index: 9999;
+	z-index: 9998;
 	margin-top: 85px;
 	transition: all ease-in-out 0.2s;
 	font-size: 14px;
@@ -489,6 +490,7 @@ body{
 	width: 70%;
 	padding: 10px 20px;
 	outline: none;
+	color: #000;
 }
 .zakazanu-premium-gazon .btn-zakazatu-premium{
 	padding: 10px 15px;
@@ -527,6 +529,7 @@ body{
 	width: 70%;
 	padding: 10px 20px;
 	outline: none;
+	color: #000;
 }
 .zakazanu-parkovii-gazon .btn-zakazatu-parkovii{
 	padding: 10px 15px;
@@ -565,6 +568,7 @@ body{
 	width: 70%;
 	padding: 10px 20px;
 	outline: none;
+	color: #000;
 }
 .zakazanu-sportivnii-gazon .btn-zakazatu-sportivnii{
 	padding: 10px 15px;
@@ -638,4 +642,26 @@ body{
 }
 .zakrutu:hover{
 	box-shadow: 0 0 5px #000;
+}
+.otrumatu-znujku{
+	background-color: #225328;
+	text-align: center;
+	padding: 50px 15px;
+}
+.otrumatu-znujku h2{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 26px;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px #000;
+}
+.otrumatu-znujku a{
+	background-color: #FF0000;
+	color: #fff;
+	letter-spacing: 1px;
+	padding: 15px 25px;
+	font-size: 16px;
+}
+.otrumatu-znujku a:hover{
+	text-decoration: none;
 }

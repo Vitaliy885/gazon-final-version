@@ -81,6 +81,9 @@
 	.nashi-klientu .col-md-4{
 		margin: 50px auto;
 	}
+	.alert-vidpravka{
+		width: 80%;
+	}
 }
 @media only screen and (max-width: 375px){
 	
@@ -244,10 +247,10 @@
 	}
 	
 	.order-consultion{
-		height: 610px;
+		height: 650px;
 	}
 	.order-consultion:before{
-		height: 610px;
+		height: 650px;
 	}
 }
 
