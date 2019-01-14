@@ -56,6 +56,12 @@
 /* Custom, iPhone Retina */
 
 @media only screen and (max-width: 768px){
+	.top-section{
+		background-attachment: none;
+	}
+	.blok-form-vidpravlennia{
+		background-attachment: none;
+	}
 	.top-logo{
 		top: 15px;
 		left: 50%;
