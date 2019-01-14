@@ -57,10 +57,10 @@
 
 @media only screen and (max-width: 768px){
 	.top-section{
-		background-attachment: none;
+		background-attachment: scroll;
 	}
 	.blok-form-vidpravlennia{
-		background-attachment: none;
+		background-attachment: scroll;
 	}
 	.top-logo{
 		top: 15px;
